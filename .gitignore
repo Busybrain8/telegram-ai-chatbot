@@ -34,3 +34,5 @@ htmlcov/
 
 # Local development
 *.local
+
+data/
