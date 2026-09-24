@@ -485,7 +485,12 @@ Retrieves conversation history.
 
 ## 🧪 Testing
 
-The application can be tested through:
+The project includes automated unit tests using pytest.
+
+Run the test suite locally:
+
+```bash
+uv run pytest -v
 
 ### Health Check
 
@@ -544,9 +549,9 @@ Potential improvements include:
 * [ ] Amazon S3 off-site database backups
 * [ ] PostgreSQL migration
 * [ ] Redis-based rate limiting
-* [ ] Automated CI/CD with GitHub Actions
+* [x] Automated tests with pytest
 * [ ] Application monitoring and alerting
-* [ ] Automated integration tests
+* [x] GitHub Actions CI
 * [ ] Conversation analytics dashboard
 * [ ] Streaming AI responses
 * [ ] Multi-model support
