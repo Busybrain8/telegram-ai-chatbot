@@ -41,6 +41,8 @@ The application provides conversational AI through Telegram while maintaining co
 
 ## 🏗️ Architecture
 
+![Telegram AI Chatbot System Architecture](assets/telegram-ai-chatbot-architecture.png)
+
 ```text
                     ┌──────────────────┐
                     │      Telegram    │
