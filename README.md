@@ -1,5 +1,7 @@
 # Telegram AI Chatbot
 
+[![CI](https://github.com/Busybrain8/telegram-ai-chatbot/actions/workflows/ci.yml/badge.svg)](https://github.com/Busybrain8/telegram-ai-chatbot/actions/workflows/ci.yml)
+
 An AI-powered Telegram chatbot built with **FastAPI, Google Gemini, SQLAlchemy, SQLite, Docker, Nginx, and AWS EC2**.
 
 The application provides conversational AI through Telegram while maintaining conversation history so the chatbot can use previous messages as context. It is deployed to AWS with HTTPS, a custom domain, persistent database storage, webhook security, rate limiting, and automated database backups.
