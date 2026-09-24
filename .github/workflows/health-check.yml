@@ -1,0 +1,17 @@
+name: Production Health Check
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check production API
+        run: |
+          curl --fail --silent --show-error \
+            --max-time 20 \
+            https://telbot.ogagamoses.dev/health
